@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Simple Registration Form</title>
+</head>
+<style>
+    body {
+      background-color: orange;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .internal-style {
+      color: darkblue;
+      font-size: 20px;
+      padding: 10px;
+    }
+  </style>
+
+<body >
+    <h2>Registration Form</h2>
+    <form action="submit_form.php" method="post">
+        <label class="internal-style" for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <br><br>
+        
+        <label class="internal-style" for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your e-mail">
+        <br><br>
+        
+        <label class="internal-style" for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        <br><br>
+
+        <label class="internal-style" for="password">Repeat Password:</label>
+        <input type="password" id="password" name="password" placeholder="Repeat your password" >
+        <br><br>
+        
+        <label class="internal-style" for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="gender" value="female"> Female
+        <br><br>
+        
+        <label class="internal-style" for="country">City:</label>
+        <select id="city" name="city">
+            <option value="kolhapur">kolhapur</option>
+            <option value="satara">satara</option>
+            <option value="pune">pune</option>
+            <option value="mumbai">mumbai</option>
+        </select>
+        <br><br>
+        
+        <input style="color: darkblue" class="internal-style" type="submit" value="Register">
+    </form>
+</body>
+</html>

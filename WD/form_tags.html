@@ -1,0 +1,77 @@
+<head>
+<title>All form tags</title>
+</head>
+<body bgcolor="lightblue">
+
+                    <h2>Various form tags<hr></h2>
+ 
+    <form>
+        
+        <label>Name:-</label>
+        <input type="text" name="nm" placeholder="Enter your name"><br><br>
+
+        <label>Password:-</label>
+        <input type="Password" name="pass" placeholder="Enter your password">
+
+        <br><br>
+
+	<label>E-mail:-</label>
+        <input type="email" name="mail" placeholder="Enter your email">
+
+        <br><br>
+	
+	<label>Contact No.:</label>
+        <input type="number" name="number" placeholder="Enter your mobile number">
+<br><br>
+
+        <b><label>Choose your Gender</label></b><br>
+        <input type="radio" name="gender" value="mal"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+        <label for="car">Choose a car compnay:</label>
+        <select id="car" name="ca">
+            <optgroup label="Italian">
+                <option value="Ferarri">Ferrari</option>
+                <option value="Lamborghini">Lamborghini</option>
+            </optgroup>
+            <optgroup label="Japnese">
+                <option value="Honda">Japan</option>
+                <option value="Nissan">India</option>
+            </optgroup>
+             <optgroup label="korean">
+                <option value="Kia">Kia</option>
+                <option value="Posco">Posco</option>
+            </optgroup>
+            <optgroup label="Chinese">
+                <option value="MG">MG</option>
+                <option value="BYD">BYD</option>
+            </optgroup>
+        </select><br>
+
+        <br><br>
+            <b><legend>Choose color for selected car</legend></b><br>
+
+            <label>Favorite Color:</label>
+            <input list="colors" id="color" name="color" placeholder="Choose color">
+            <datalist id="colors">
+                <option value="Dark Emrald">
+                <option value="English white">
+                <option value="Imperial Jade">
+                <option value="Magma Red">
+                <option value="Jubilee Silver">
+                <option value="Burnout Grey">
+                <option value="Sapphire Black">
+            </datalist><br><br>
+		
+           <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+	   <label for="vehicle1"> I have a bike</label><br>
+	   <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+	   <label for="vehicle2"> I have a car</label><br>
+	   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+	   <label for="vehicle3"> I have a boat</label><br>
+            <br><br>
+        <button type="submit"  formaction="C:\Users\psjad\OneDrive\Desktop\web dev lab\forth practical\thanks.html">Submit</button>
+    </form>
+
+</body>
+</html>

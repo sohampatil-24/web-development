@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<showroom>
+
+<car>
+<model>Tata Nexon</model>
+<manufacturer>Tata Motors</manufacturer>
+<year>2024</year>
+<price>₹800000</price>
+<cc>1199</cc>
+</car>
+
+<car>
+<model>Swift</model>
+<manufacturer>Maruti Suzuki</manufacturer>
+<year>2023</year>
+<price>₹600000</price>
+<cc>1197</cc>
+</car>
+
+<car>
+<model>Creta</model>
+<manufacturer>Hyundai</manufacturer>
+<year>2023</year>
+<price>₹1200000</price>
+<cc>1497</cc>
+</car>
+
+<car>
+<model>Honda City</model>
+<manufacturer>Honda</manufacturer>
+<year>2022</year>
+<price>₹1100000</price>
+<cc>1498</cc>
+</car>
+
+<car>
+<model>XUV700</model>
+<manufacturer>Mahindra</manufacturer>
+<year>2023</year>
+<price>₹1600000</price>
+<cc>2198</cc>
+</car>
+
+<car>
+<model>BMW 3 Series</model>
+<manufacturer>BMW</manufacturer>
+<year>2023</year>
+<price>₹4500000</price>
+<cc>1995</cc>
+</car>
+
+<car>
+<model>Audi A6</model>
+<manufacturer>Audi</manufacturer>
+<year>2023</year>
+<price>₹6000000</price>
+<cc>1984</cc>
+</car>
+
+<car>
+<model>Mercedes-Benz GLC</model>
+<manufacturer>Mercedes-Benz</manufacturer>
+<year>2023</year>
+<price>₹8000000</price>
+<cc>1991</cc>
+</car>
+<car>
+<model>Polo</model>
+<manufacturer>Volkswagen</manufacturer>
+<year>2023</year>
+<price>₹700000</price>
+<cc>1197</cc>
+</car>
+
+<car>
+<model>EcoSport</model>
+<manufacturer>Ford</manufacturer>
+<year>2022</year>
+<price>₹900000</price>
+<cc>1499</cc>
+</car>
+
+</showroom>

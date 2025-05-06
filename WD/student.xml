@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stud.xsl"?>
+
+<class>
+<student rollno = "1">
+<firstname>Vishal</firstname>
+<lastname>Patil</lastname>
+<marks>75</marks>
+</student>
+
+<student rollno = "2">
+<firstname>Soham</firstname>
+<lastname>Patil</lastname>
+<marks>85</marks>
+</student>
+
+<student rollno = "3">
+<firstname>Om</firstname>
+<lastname>Patel</lastname>
+<marks>40</marks>
+</student>
+
+<student rollno = "4">
+<firstname>Parth</firstname>
+<lastname>Jadhav</lastname>
+<marks>60</marks>
+</student>
+
+<student rollno = "5">
+<firstname>Vikas</firstname>
+<lastname>Gavali</lastname>
+<marks>55</marks>
+</student>
+
+</class>
